@@ -31,8 +31,6 @@ The app uses the Dictionary API to fetch word data. JavaScript handles the API r
 #  API Integration
 The Dictionary Web Application integrates with the Dictionary API to fetch real-time word definitions, phonetic transcriptions, and example sentences. Here's how the API is integrated technically:
 
-## API Endpoint:
-The application uses the endpoint provided by the Dictionary API (https://api.dictionaryapi.dev/api/v2/entries/en/). This endpoint allows querying for English words and returns JSON data with detailed information about the word.
 
 ## Fetching Data:
 When a user enters a word and clicks the search button, JavaScript fetches data from the API using fetch(). The word entered by the user is appended to the API endpoint to retrieve specific word details.
